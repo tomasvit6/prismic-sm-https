@@ -1,0 +1,95 @@
+{
+  "id": "section_intro",
+  "type": "SharedSlice",
+  "name": "SectionIntro",
+  "description": "SectionIntro",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SectionIntro",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,paragraph"
+          }
+        },
+        "titleColor": {
+          "config": {
+            "label": "Title Color",
+            "placeholder": "",
+            "options": [
+              "text.primary",
+              "light.main",
+              "dark.main",
+              "primary.main",
+              "secondary.main"
+            ]
+          },
+          "type": "Select"
+        },
+        "showDivider": {
+          "config": {
+            "label": "Show Divider After Title",
+            "placeholder_false": "no",
+            "placeholder_true": "yes",
+            "default_value": false
+          },
+          "type": "Boolean"
+        },
+        "subtitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Subtitle",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "subtitleColor": {
+          "config": {
+            "label": "Subtitle Color",
+            "placeholder": "",
+            "options": [
+              "text.primary",
+              "light.main",
+              "dark.main",
+              "primary.main",
+              "secondary.main"
+            ]
+          },
+          "type": "Select"
+        },
+        "position": {
+          "config": {
+            "label": "Position",
+            "placeholder": "",
+            "options": ["left", "center", "right"]
+          },
+          "type": "Select"
+        },
+        "backgroundColor": {
+          "config": {
+            "label": "Background Color",
+            "placeholder": "",
+            "options": [
+              "transparent",
+              "light.main",
+              "dark.main",
+              "primary.main",
+              "secondary.main"
+            ]
+          },
+          "type": "Select"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

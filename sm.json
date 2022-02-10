@@ -1,0 +1,6 @@
+{
+  "apiEndpoint": "https://c-mobile-local.prismic.io/api/v2",
+  "libraries": ["@/slices"],
+  "_latest": "0.1.0",
+  "localSliceSimulatorURL": "https://localhost:443/slice-simulator"
+}

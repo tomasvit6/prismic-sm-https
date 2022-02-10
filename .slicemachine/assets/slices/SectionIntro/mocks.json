@@ -1,0 +1,29 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "section_intro",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "paragraph",
+          "text": "Pariatur aliquip ea eiusmod duis cillum eu do consectetur. Duis dolor aliquip et exercitation nisi dolore velit pariatur esse ad pariatur magna dolor Lorem. Irure qui quis exercitation excepteur nisi.",
+          "spans": []
+        }
+      ],
+      "titleColor": "primary.main",
+      "showDivider": true,
+      "subtitle": [
+        {
+          "type": "paragraph",
+          "text": "Veniam amet voluptate tempor.",
+          "spans": []
+        }
+      ],
+      "subtitleColor": "dark.main",
+      "position": "center",
+      "backgroundColor": "secondary.main"
+    }
+  }
+]
